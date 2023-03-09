@@ -1,5 +1,6 @@
+/* GENERAL */
 body{
-  font-style: 'Open Sans' 'Serif' 'Arial';
+  font-family: 'Open Sans', sans-serif ,'Arial';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -8,8 +9,99 @@ body{
   margin: 0;
 }
 
+h2 {
+
+}
+
+.main-button {
+  font-family: 'Open Sans Condensed', sans-serif ,'Arial';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 2px;
+  background-color: #DE2E54;
+  color: #fff;
+  width: 189px;
+  height: 47px;
+}
+
+/* HEADER */
 header{
   background-color: #fff;
   color: #000;
+}
+.site-header {
+  display: flex;
+}
+.nav-bar {
+  display: flex;
+}
+.nav-bar-lists {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 
+.nav-list {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Open Sans','Arial',serif; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#000;
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+.hero {
+display: flex;
+align-items: center;
+background-color:rgba(14, 180, 193, 1);
+color: #fff;
+}
+.hero-text {
+  width: 500px;
+  height: 293px;
+}
+
+/* Services */
+.services {
+  margin: 0;
+  padding: 0;
+}
+
+.section-hijoma {
+  display: flex;
+  align-items: center;
+}
+
+.section-terapiya {
+  display: flex;
+  align-items: center;
+}
+
+.section-zuluk {
+  display: flex;
+  align-items: center;
+}
+
+.section-tabiiy {
+  display: flex;
+  align-items: center;
+}
+
+/* CTA */
+.cta {
+  background-color:rgba(14, 180, 193, 1);
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  background: #222222;
+  color: #fff;
 }
